@@ -70,7 +70,6 @@ const PROLOGUE_DIALOGUES = [
     speaker: "Andre",
     text: "Eh eum.. nama aku Andre te…",
     badgeBg: "#f97316",
-    sprite: "assets/Andre/Andre_Concern.png",
     isFlashback: true,
     isBlackscreen: false
   },
@@ -84,7 +83,6 @@ const PROLOGUE_DIALOGUES = [
   {
     speaker: null,
     text: "(Tiba-tiba keliatan Andriana lagi ngintip di balik jendela rumahnya, ternyata si bro udah ngintipin emaknya dari tadi)",
-    sprite: "assets/Andriana/Andriana_Smile.png",
     isFlashback: true,
     isBlackscreen: false
   },
@@ -92,7 +90,6 @@ const PROLOGUE_DIALOGUES = [
     speaker: "Andre",
     text: "Eh, oh- bboleh te.",
     badgeBg: "#f97316",
-    sprite: "assets/Andre/Andre_Confuse.png",
     isFlashback: true,
     isBlackscreen: false
   },
@@ -106,14 +103,12 @@ const PROLOGUE_DIALOGUES = [
   {
     speaker: null,
     text: "Sejak kecil, kami sering bermain bareng dan melakukan semua hal bersama. Kadang Andriana ke rumahku, kadang aku yang ke rumah Andriana. Mungkin itu yang membuatku dekat dengan Andriana, seakan tidak ada jarak lagi diantara kami berdua…",
-    sprite: "assets/Andre/Andre_Talking_Smile.png",
     isFlashback: false,
     isBlackscreen: false
   },
   {
     speaker: null,
     text: "Sampai suatu hari... kami mulai berubah.",
-    sprite: "assets/Andre/Andre_Concern.png",
     isFlashback: false,
     isBlackscreen: true
   }
@@ -810,6 +805,7 @@ const CHAPTER_1_ANDRE_GRAPH = {
 const CHAPTER_1_ANDRIANA_GRAPH = {
   start: {
     speaker: "Emaknya Andriana",
+    sprite: "assets/Mommy_/Maknya_Andriana.png",
     badgeBg: "#06b6d4",
     bgType: "andriana_house",
     text: "Andriana udah bangun?",
@@ -825,6 +821,7 @@ const CHAPTER_1_ANDRIANA_GRAPH = {
   },
   andriana_2: {
     speaker: "Emaknya Andriana",
+    sprite: "assets/Mommy_/Maknya_Andriana.png",
     badgeBg: "#06b6d4",
     bgType: "andriana_house",
     text: "Ayo buruan berangkat sekolah ya nak, bunda takut kamu telat nak.",
@@ -840,6 +837,7 @@ const CHAPTER_1_ANDRIANA_GRAPH = {
   },
   andriana_4: {
     speaker: "Emaknya Andriana",
+    sprite: "assets/Mommy_/Maknya_Andriana.png",
     badgeBg: "#06b6d4",
     bgType: "andriana_house",
     text: "Hati-hati ya nak!",
@@ -1169,6 +1167,7 @@ const CHAPTER_1_ANDRIANA_GRAPH = {
   },
   andriana_mom_2: {
     speaker: "Emaknya Andriana",
+    sprite: "assets/Mommy_/Maknya_Andriana.png",
     badgeBg: "#06b6d4",
     bgType: "andriana_house",
     text: "Wah anak mama udah gede ya sekarang! Kemungkinan besar Andriana sekarang lagi mengalami yang namanya menstruasi pertamanya.",
@@ -1184,6 +1183,7 @@ const CHAPTER_1_ANDRIANA_GRAPH = {
   },
   andriana_mom_4: {
     speaker: "Emaknya Andriana",
+    sprite: "assets/Mommy_/Maknya_Andriana.png",
     badgeBg: "#06b6d4",
     bgType: "andriana_house",
     text: "Iya nak, menstruasi pertama juga disebut dengan Menarche. Itu merupakan salah satu tanda bahwa tubuh kamu sedang berkembang dan mengalami pubertas.",
@@ -1199,6 +1199,7 @@ const CHAPTER_1_ANDRIANA_GRAPH = {
   },
   andriana_mom_6: {
     speaker: "Emaknya Andriana",
+    sprite: "assets/Mommy_/Maknya_Andriana.png",
     badgeBg: "#06b6d4",
     bgType: "andriana_house",
     text: "Bukan Nak. Menstruasi adalah bagian dari perubahan tubuh yang normal ketika perempuan mengalami pubertas.",
@@ -1214,6 +1215,7 @@ const CHAPTER_1_ANDRIANA_GRAPH = {
   },
   andriana_mom_8: {
     speaker: "Emaknya Andriana",
+    sprite: "assets/Mommy_/Maknya_Andriana.png",
     badgeBg: "#06b6d4",
     bgType: "andriana_house",
     text: "Karena tubuh kamu sedang mengalami perubahan yang diatur oleh hormon. Saat pubertas, hormon-hormon di dalam tubuh meningkat dan membantu organ reproduksi berkembang.",
@@ -1221,6 +1223,7 @@ const CHAPTER_1_ANDRIANA_GRAPH = {
   },
   andriana_mom_9: {
     speaker: "Emaknya Andriana",
+    sprite: "assets/Mommy_/Maknya_Andriana.png",
     badgeBg: "#06b6d4",
     bgType: "andriana_house",
     text: "Jadi kamu enggak perlu takut atau malu. Setiap perempuan akan mengalami perubahan tubuh yang berbeda-beda, termasuk waktunya. Ada yang mengalami pubertas lebih cepat, ada juga yang lebih lambat.",
@@ -1236,6 +1239,7 @@ const CHAPTER_1_ANDRIANA_GRAPH = {
   },
   andriana_mom_11: {
     speaker: "Emaknya Andriana",
+    sprite: "assets/Mommy_/Maknya_Andriana.png",
     badgeBg: "#06b6d4",
     bgType: "andriana_house",
     text: "Iya, Nak. Ini bagian dari proses kamu tumbuh menjadi lebih dewasa.",
@@ -1243,6 +1247,7 @@ const CHAPTER_1_ANDRIANA_GRAPH = {
   },
   andriana_mom_12: {
     speaker: "Emaknya Andriana",
+    sprite: "assets/Mommy_/Maknya_Andriana.png",
     badgeBg: "#06b6d4",
     bgType: "andriana_house",
     text: "Oh iya satu hal lagi. Kamu enggak perlu merasa malu dengan perubahan tubuhmu. Tapi kamu juga perlu belajar menjaga kebersihan, menjaga privasi tubuhmu, dan berani bilang kalau ada sesuatu yang membuatmu tidak nyaman.",
@@ -1258,6 +1263,7 @@ const CHAPTER_1_ANDRIANA_GRAPH = {
   },
   andriana_mom_14: {
     speaker: "Emaknya Andriana",
+    sprite: "assets/Mommy_/Maknya_Andriana.png",
     badgeBg: "#06b6d4",
     bgType: "andriana_house",
     text: "Kamu perlu paham bahwa mitos seperti tidak boleh keramas atau minum es itu tidak benar. Yang penting adalah menjaga kebersihan pembalut, minum cukup air, dan bercerita terbuka kepada mama jika bingung.",
@@ -1273,6 +1279,7 @@ const CHAPTER_1_ANDRIANA_GRAPH = {
   },
   andriana_mom_16: {
     speaker: "Emaknya Andriana",
+    sprite: "assets/Mommy_/Maknya_Andriana.png",
     badgeBg: "#06b6d4",
     bgType: "andriana_house",
     text: "Betul, Nak. Boleh banget bertanya sama mama daripada menyimpannya sendirian.",
