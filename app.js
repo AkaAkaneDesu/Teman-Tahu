@@ -212,7 +212,7 @@ class GameApp {
       <div class="title-content">
         <span class="title-logo-badge">Visual Novel</span>
         <h1>Teman Tahu</h1>
-        
+
         <div style="margin-top: 32px;">
           <button class="btn btn-primary btn-start" id="btn-start-game">
             <span>Mulai Game</span>
@@ -273,8 +273,8 @@ class GameApp {
           </p>
 
           <div class="next-prompt">
-            <span>Tekan Enter / Klik untuk Lanjut</span>
-            <span>Enter</span>
+            <span>Tekan Enter / Tap untuk Lanjut</span>
+            <span>&rarr;</span>
           </div>
         </div>
       </div>
@@ -293,6 +293,7 @@ class GameApp {
 
   createCharacterSelectScreen() {
     const container = document.createElement('div');
+    container.className = 'char-select-screen';
     container.style.width = '100%';
     container.style.height = '100%';
 
@@ -307,14 +308,14 @@ class GameApp {
           const posClass = index === 0 ? 'left' : 'right';
 
           return `
-            <div 
+            <div
               class="pane ${posClass} ${char.id}"
               data-id="${char.id}"
               style="--accent-color: ${char.color}; --accent-shadow: ${char.shadow};"
             >
               <div class="pane-bg" style="background-image: url(${char.bg});"></div>
               <img src="${char.image}" alt="${char.name}" class="char-portrait" />
-              
+
               <div class="profile-pane">
                 <h2>${char.name}</h2>
                 <span class="profile-age">${char.age}</span>
@@ -322,6 +323,9 @@ class GameApp {
                   <p><strong>Sifat</strong>${char.sifat}</p>
                   <p><strong>Latar Belakang</strong>${char.latarBelakang}</p>
                   <p><strong>Gejala Pubertas</strong>${char.gejala}</p>
+                </div>
+                <div class="char-select-action">
+                  <span class="btn-char-select">Pilih ${char.name} &rarr;</span>
                 </div>
               </div>
             </div>
@@ -445,8 +449,8 @@ class GameApp {
             </p>
 
             <div class="next-prompt">
-              <span>Tekan Enter / Klik untuk Lanjut</span>
-              <span>Enter</span>
+              <span>Tekan Enter / Tap untuk Lanjut</span>
+              <span>&rarr;</span>
             </div>
           </div>
         </div>
@@ -527,8 +531,8 @@ class GameApp {
             </p>
 
             <div class="next-prompt">
-              <span>Tekan Enter / Klik untuk Lanjut</span>
-              <span>Enter</span>
+              <span>Tekan Enter / Tap untuk Lanjut</span>
+              <span>&rarr;</span>
             </div>
           </div>
         </div>
@@ -554,9 +558,9 @@ class GameApp {
         </span>
 
         <h2>${isGood ? 'Pelajaran Berharga di Masa Pubertas' : 'Awas Bahaya Mitos & Pergaulan Bebas'}</h2>
-        
+
         <p class="ending-quote">
-          ${isGood 
+          ${isGood
             ? '“Pubertas adalah proses tumbuh dewasa yang wajar. Terima kasih telah berani terbuka kepada orang tua dan menghargai privasi serta batas pribadi sesama teman!”'
             : '“Informasi yang salah dari teman atau internet bisa menyesatkan. Selalu saring informasi secara faktual dan komunikasikan dengan orang tua.”'
           }
